@@ -23,8 +23,9 @@ require([
     'jquery',
     'underscore',
     'backbone',
-    'Vistas'
-    ], function ($, _, Backbone,Vistas) {
+    'Vistas',
+    'src/vistas/menu'
+    ], function ($, _, Backbone,Vistas,Menu) {
     // rutas de la aplicación
     var router = Backbone.Router.extend({
         routes: {
@@ -37,7 +38,7 @@ require([
             this.homeView.render();
         },
         menu:function(){
-        	this.menuView = new Vistas.menuView();
+        	this.menuView = new Menu();
             this.menuView.render();
         }
     });

@@ -1,19 +1,3 @@
-require.config({
-   paths: {
-        jquery: 'vendor/jquery.min',
-        underscore: 'vendor/underscore',
-        backbone: 'vendor/backbone',
-    },
-    shim: {
-        backbone: {
-            deps: ["underscore", "jquery"],
-            exports: "Backbone"
-        },
-        underscore: {
-            exports: "_"
-        }
-    }
-});
 define([
     'jquery',
     'underscore',
