@@ -7,7 +7,7 @@ define([
     // la vista homeView    
     var homeView = Backbone.View.extend({
         el: 'body',
-        template: _.template('Hola <a href="#menu">Mundo</a>')  ,
+        template: _.template('Hola <a href="#menu">Mundo</a><br/><a href="#pilotos">Piloto</a>')  ,
         render: function(){
             this.$el.html(this.template({}));
         }

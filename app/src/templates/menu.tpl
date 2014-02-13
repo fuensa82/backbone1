@@ -1,1 +1,1 @@
-Esto es el menu desde el template
+Esto es una prueba
