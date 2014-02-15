@@ -1,53 +1,110 @@
+body{
+	background: #000 url(../img/bgnd_master.jpg) no-repeat;
+	font-family: Arial;
+	}
+header{
+	margin: 0 auto 0 auto;
+	/*background-color: #000;*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	}
+footer{
+	margin-top:30px;
+	padding-top:5px;
+	border-top:solid 1px #ccc;
+	font-size: 12px;
+	text-align: center;
+	color:#ccc;
+	}
+footer a{
+	color:#ccc;
+	}
+#cajaDeLogin{
+	font-size: 14px;
+	margin: 0 auto 0 auto;
+	padding: 5px 5px 15px 5px;
+	border-radius: 10px;
+	color:#fff;
+	font-weight:bold;
+	box-shadow: yellow 0 5px 15px 0;
+	margin-top:35px;
+	}
+#cajaDeLogin input{
+	font-size: 13px;
+	}
+#cajaDeLogin h2{
+	color: #fff;
+	text-align: center;
+	}
+.align_right{
+	text-align: right;
+	}
+.align_center{
+	text-align: center;
+	}
+.label_login{
+	display: block;
+	float: left;
+	width: 100px;
+	}
+.botonLogin{
+	font-family: Arial;
+	font-size: 14px;
+	padding: 5px 0px 5px 0px;
+	background-color:#ccc;
+	margin:10px;
+	text-align:center;
+	border-radius: 10px;
+	box-shadow: green 0 5px 5px 0;
+	width:100px;
+	margin: 0 auto 0 auto;
+	}
+.botonLogin a{
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	display:block;
+	padding-top:5px;
+	padding-bottom:5px;
+	}
 
-/* Prevent the text contents of draggable elements from being selectable. */
-[draggable] {
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  /* Required to make elements draggable in old WebKit */
-  -khtml-user-drag: element;
-  -webkit-user-drag: element;
+/*Mi Apuestas*/
+label{
+	display: block;
+	float: left;
+	width: 100px;
+
 }
-.column {
-  height: 150px;
-  width: 150px;
-  float: left;
-  border: 2px solid #666666;
-  background-color: #ccc;
-  margin-right: 5px;
-  -webkit-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 3px #000;
-  -ms-box-shadow: inset 0 0 3px #000;
-  box-shadow: inset 0 0 3px #000;
-  text-align: center;
-  cursor: move;
+article{
+	padding:5px;
+	margin: 0 auto 0 auto;
+	width:280px;
+	/*background-color:#fff;
+	opacity:0.5;*/
+	font-weight:bold;
+	color:#fff;
 }
-.column header {
-  color: #fff;
-  text-shadow: #000 0 1px;
-  box-shadow: 5px;
-  padding: 5px;
-  background: -moz-linear-gradient(left center, rgb(0,0,0), rgb(79,79,79), rgb(21,21,21));
-  background: -webkit-gradient(linear, left top, right top,
-                               color-stop(0, rgb(0,0,0)),
-                               color-stop(0.50, rgb(79,79,79)),
-                               color-stop(1, rgb(21,21,21)));
-  background: -webkit-linear-gradient(left center, rgb(0,0,0), rgb(79,79,79), rgb(21,21,21));
-  background: -ms-linear-gradient(left center, rgb(0,0,0), rgb(79,79,79), rgb(21,21,21));
-  border-bottom: 1px solid #ddd;
-  -webkit-border-top-left-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -ms-border-radius-topleft: 10px;
-  border-top-left-radius: 10px;
-  -webkit-border-top-right-radius: 10px;
-  -ms-border-top-right-radius: 10px;
-  -moz-border-radius-topright: 10px;
-  border-top-right-radius: 10px;
+.texto_blanco{
+	color:#fff;
 }
-.column.over {
-  border: 2px dashed #000;
+#div_button{
+	font-family: Arial;
+	font-size: 14px;
+	padding: 5px 0px 5px 0px;
+	background-color:#ccc;
+	margin:10px;
+	text-align:center;
+	border-radius: 10px;
+	box-shadow: cyan 0 2px 5px 0;
+	width:50%;
+	margin: 0 auto 0 auto;
+}
+#div_button a{
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	display:block;
+	padding-top:5px;
+	padding-bottom:5px;
 }

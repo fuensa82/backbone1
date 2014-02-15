@@ -15,7 +15,7 @@ define([
 			var modelo=new MPilotos();
 			modelo.fetch({
 				success:function(mod){
-					console.log("Cargado el modelo. "+mod.get("Nombre"));
+					console.log("Cargado el modelo. "+mod.getArrayPilotos());
 					Utils.cargaTemplate('pilotos').done(function(plantilla){
 						var compile=_.template(plantilla,mod.attributes[0]);
 						context.$el.html(compile+"<br/>SIII");
