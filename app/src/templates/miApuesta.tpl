@@ -6,10 +6,7 @@
 		</p>
 		<article>
 			<p>
-				<label for="pole">Pole:</label>
-				<select name="pole" id="pole">
-					
-				</select>
+				<div id="comboPole" />
 			</p>
 			<p>
 				<label for="primero">Primero:</label>

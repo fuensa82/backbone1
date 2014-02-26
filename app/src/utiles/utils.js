@@ -13,6 +13,23 @@ define([
 	    		dfd.resolve(friendHtml);
 	    	});
 	    	return dfd.promise();
+        },
+        crearCombo: function(el,id,label,opciones,selected){
+            this.cargaTemplate("comboPiloto").done(function(template){
+                console.log(template);
+                console.log($("#"+el));
+                var compile=_.template(template,{"label":label,"id":id});
+                $("#"+el).html(compile);
+                _.each(opciones,function(item){
+                    if(item.id===selected){
+                        $("#"+el+" select").append("<option selected value='"+item.id+"'>"+item.nombre+"</option>");
+                    }else{
+                        $("#"+el+" select").append("<option value='"+item.id+"'>"+item.nombre+"</option>");
+                    }
+                })
+                
+            });
+
         }
         
    

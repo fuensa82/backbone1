@@ -21,6 +21,7 @@ define([
 						console.log("--- "+mod.getProxCarrera());
 						var compile=_.template(plantilla,mod.getProxCarrera());
 						context.$el.html(compile+"<br/>SIII");
+						Utils.crearCombo("comboPole","pole","Pole",[{id:"ALO",nombre:"Alonso"},{id:"KIM",nombre:"Kimi R"}],"KIM");
 					});
 				},this)
 			});
