@@ -9,6 +9,27 @@
 				<div id="comboPole" />
 			</p>
 			<p>
+				<div id="comboPrimero" />
+			</p>
+			<p>
+				<div id="comboSegundo" />
+			</p>
+			<p>
+				<div id="comboTercero" />
+			</p>
+			<p>
+				<div id="comboCuarto" />
+			</p>
+			<p>
+				<div id="comboQuinto" />
+			</p>
+			<p>
+				<div id="comboSexto" />
+			</p>
+			<p>
+				<div id="comboSeptimo" />
+			</p>
+			<!--p>
 				<label for="primero">Primero:</label>
 				<select name="primero" id="primero">
 					<option value="1">Sebastian Vettel</option>
@@ -107,7 +128,7 @@
 					<option value="4">Felipe Massa</option>
 					<option value="5">Giedo van der Garde</option>
 				</select>
-			</p>
+			</p-->
 		</article>
 		<div id="div_button">
 			<a href="#">Guardar apuesta</a>

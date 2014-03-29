@@ -10,6 +10,15 @@ define([
 		url: 'http://localhost:3000/pilotos',
 		getArrayPilotos:function(){
 			this.attributes;
+		},
+		getPilotosIdNombre:function(){
+			console.log("--- Entrando en modelo");
+			var lista=[];
+			_.each(this.attributes,function(item){
+				lista.push({value:item.ident_piloto,text:item.nombre_piloto});
+			});
+			console.log("--- Tamaño: "+lista.length);
+			return lista;
 		}
 	});
 	return modelo;

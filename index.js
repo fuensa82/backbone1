@@ -40,7 +40,7 @@ app.use(express.bodyParser());
 
 app.get('/pilotos',function(req, res){
 	client.query(
-		'SELECT * FROM pilotos where estado_piloto="A"',
+		'SELECT * FROM pilotos where estado_piloto="A" order by numero_piloto*1',
 		function selectUsuario(err, results, fields) {
 			if (err) {
 				console.log("---ERROR: " + err.message);
