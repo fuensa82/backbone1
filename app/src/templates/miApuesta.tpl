@@ -6,28 +6,28 @@
 		</p>
 		<article>
 			<p>
-				<div id="comboPole" />
+				<div id="divComboPole" />
 			</p>
 			<p>
-				<div id="comboPrimero" />
+				<div id="divComboPrimero" />
 			</p>
 			<p>
-				<div id="comboSegundo" />
+				<div id="divComboSegundo" />
 			</p>
 			<p>
-				<div id="comboTercero" />
+				<div id="divComboTercero" />
 			</p>
 			<p>
-				<div id="comboCuarto" />
+				<div id="divComboCuarto" />
 			</p>
 			<p>
-				<div id="comboQuinto" />
+				<div id="divComboQuinto" />
 			</p>
 			<p>
-				<div id="comboSexto" />
+				<div id="divComboSexto" />
 			</p>
 			<p>
-				<div id="comboSeptimo" />
+				<div id="divComboSeptimo" />
 			</p>
 			<!--p>
 				<label for="primero">Primero:</label>
@@ -131,7 +131,7 @@
 			</p-->
 		</article>
 		<div id="div_button">
-			<a href="#">Guardar apuesta</a>
+			<a id='botonGuardar' href="#">Guardar apuesta</a>
 		</div>
 		<footer>
 			<a href="#">Versión web.</a>

@@ -79,6 +79,10 @@ app.get('/proxCarrera',function(req, res){
 	);
 });
 
+app.put('miApuesta/',function(req, res){
+	console.log("--- POST recibido");
+});
+
 app.use(express.methodOverride());
 //app.use(express.cookieParser('secret'));//necesario para utilizar sesiones
 //app.use(express.session({cookie: {maxAge: 900000}}));//tiempo de expiración de la sesión

@@ -15,6 +15,7 @@ define([
 	    	return dfd.promise();
         },
         crearCombo: function(el,id,label,opciones,selected){
+            var dfd = new $.Deferred();
             this.cargaTemplate("comboPiloto").done(function(template){
                 var compile=_.template(template,{"label":label,"id":id});
                 $("#"+el).html(compile);
@@ -25,8 +26,9 @@ define([
                         $("#"+el+" select").append("<option value='"+item.value+"'>"+item.text+"</option>");
                     }
                 })
-                
+                dfd.resolve();
             });
+            return dfd.promise();
 
         }
         
